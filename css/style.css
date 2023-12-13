@@ -45,7 +45,7 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   padding: 64px 120px;
-  background-image: url("/images/header-bg.png");
+  background-image: url("../images/header-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,17 +128,27 @@ h2 {
   text-align: center;
 }
 
+.recommended {
+  margin-bottom: 120px;
+}
+
 .recommended__products {
   display: flex;
   justify-content: space-between;
   margin-top: 64px;
+  gap: 24px;
 }
 
 .recommended__products {
+  font-size: 16px;
 }
 
 .bold {
   font-weight: 700;
+}
+
+.product_image {
+  width: 100%;
 }
 
 .product_title {
